@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Detergent shop</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="home">Products</a></li>
+                <li><a href="home">contact</a></li>
+                <li><a href="home">Blog</a></li>
+            </ul>
+            <div class="cart-icon">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                </svg>
+                <span>0</span>
+            </div>
+            <button id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>                  
+            </button>    
+        </nav>
+    </header>
+    <section>
+        <h2>Featured Products</h2>
+        <div class="cards">
+            <div class="card-one">
+                <div class="card-1">
+                    <img src="images/image1.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+                <div class="card-2">
+                    <img src="images/image2.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+                <div class="card-3">
+                    <img src="images/image3.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+            </div>
+            <div class="card-two">
+                <div class="card-4">
+                    <img src="images/image4.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+                <div class="card-5">
+                    <img src="images/image5.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+                <div class="card-6">
+                    <img src="images/image6.jpg" alt="">
+                    <h2 class="card-title">liquid soap</h2>
+                    <p class="price">$1.9</p>
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-close">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <div class="cart-menue">
+                    <h3>My cart</h3>
+                    <div class="cart-items">test 1</div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="total-amount">
+                        <h5>Total</h5>
+                        <div class="cart-total">$0.00</div>
+                    </div>
+                    <button class="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form class="form">
+                <h1>Registration Form</h1>
+                <div>
+                    <label for="name" class="form-lable">Full Name</label>
+                    <input type="text" id="name" placeholder="fullname">
+                </div> 
+                <div>
+                    <label for="email" class="form-lable">Email address</label>
+                    <input type="text" id="email" placeholder="email">
+                </div> 
+                <div>
+                    <label for="password" class="form-lable">Password</label>
+                    <input type="text" id="password" placeholder="password">
+                </div> 
+                <div>
+                    <label for="confirmPassword" class="form-lable">Contirm Password</label>
+                    <input type="text" id="confirmPassword" placeholder="Confirm Password">
+                </div> 
+                <div>
+                    <button type="submit" class="submit-btn">Resgister</button>
+                </div>
+                <div>
+                    Already have an account? <a href="#">Login</a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Libra</p>
+            <div>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div>
+                <p>CopyRight &copy; 2025 All Rights Researved</p>
+            </div>
+        </footer>
+    </section>
+    <SCript>
+        let darkmode =localStorage.getItem('darkmode');
+        const darkModeToggle =document.getElementById('#dark-mode-toggle');
+        const enableDarkmode = () =>{
+            document.body.classList.add('darkmode');
+            localStorage.setItem('darkmode', 'active')
+        }
+        const disableDarkmode = () =>{
+            document.body.classList.remove('darkmode');
+            localStorage.setItem('darkmode', 'null')
+        }
+
+        if (darkmode == 'active') enableDarkmode()
+        darkModeToggle.addEventListener("click", ()=>{
+            darkmode =localStorage.getItem('darkmode')
+            if (darkmode !=="active"){
+                enableDarkmode()
+            }else{
+                disableDarkmode()
+            }
+        })
+
+    document.addEventListener('DOMContentLoaded', ()=>{
+        const addToCartButtons =document.querySelectorAll('.add-to-cart');
+        const cartItemCount =document.querySelector('.cart-icon span');
+        const cartItemsList =document.querySelector('.cart-items');
+        const cartTotal =document.querySelector('.cart-total');
+        const cartIcon =document.querySelector('.cart-icon');
+        const sideBar =document.getElementById('#sidebar');
+
+        let cartItems =[];
+        let totalAmount =0;
+        
+        addToCartButtons.forEach((button, index) =>{
+            button.addEventListener('click', ()=>{
+                const item={
+                    name: document.querySelectorAll('.cards.card-title')[index].textContent,
+                    price: parseFloat(
+                        document.querySelectorAll('.price')[index].textContent.slice(1),
+                    ),
+                    quantity:1,
+                };
+                const existingItem =cartItems.find(
+                    (cartItem) =>cartItem.name === item.name,
+                );
+                if (existingItem){
+                    existingItem.quantity++;
+                }else{
+                    cartItems.push(item);
+                }
+                totalAmount += item.price;
+                updateCartUI();
+            });
+            function updateCartUI(){
+                updateCartItemCount(cartItems.length);
+                updateCartItemsList();
+                updateCartTotal();
+            }
+            function updateCartItemCount(count){
+                cartItemCount.textContent =count;
+            }
+            function updateCartItemsList(){
+                cartItemsList.innerHTML ='';
+                cartItems.forEach((item, index) =>{
+                    const cartItem =document
+                })
+            }
+        })
+    })
+    </SCript>
+</body>
+</html>
